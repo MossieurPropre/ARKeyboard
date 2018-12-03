@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6FE816621B11EC20054018A /* ARTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FE816621B11EC20054018A /* ARKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FE816921B11EC20054018A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FE816B21B11EC20054018A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A6FE816D21B11EC20054018A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		A6FE817221B11EC30054018A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6FE817521B11EC30054018A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6FE817721B11EC30054018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6FE817C21B11EC30054018A /* ARTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FE817C21B11EC30054018A /* ARKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FE818021B11EC30054018A /* ARTest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTest2Tests.swift; sourceTree = "<group>"; };
 		A6FE818221B11EC30054018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6FE818721B11EC30054018A /* ARTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FE818721B11EC30054018A /* ARKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FE818B21B11EC30054018A /* ARTest2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTest2UITests.swift; sourceTree = "<group>"; };
 		A6FE818D21B11EC30054018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +79,9 @@
 		A6FE815D21B11EC20054018A = {
 			isa = PBXGroup;
 			children = (
-				A6FE816821B11EC20054018A /* ARTest2 */,
-				A6FE817F21B11EC30054018A /* ARTest2Tests */,
-				A6FE818A21B11EC30054018A /* ARTest2UITests */,
+				A6FE816821B11EC20054018A /* ARKeyboard */,
+				A6FE817F21B11EC30054018A /* ARKeyboardTests */,
+				A6FE818A21B11EC30054018A /* ARKeyboardUITests */,
 				A6FE816721B11EC20054018A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		A6FE816721B11EC20054018A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6FE816621B11EC20054018A /* ARTest2.app */,
-				A6FE817C21B11EC30054018A /* ARTest2Tests.xctest */,
-				A6FE818721B11EC30054018A /* ARTest2UITests.xctest */,
+				A6FE816621B11EC20054018A /* ARKeyboard.app */,
+				A6FE817C21B11EC30054018A /* ARKeyboardTests.xctest */,
+				A6FE818721B11EC30054018A /* ARKeyboardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6FE816821B11EC20054018A /* ARTest2 */ = {
+		A6FE816821B11EC20054018A /* ARKeyboard */ = {
 			isa = PBXGroup;
 			children = (
 				A6FE816921B11EC20054018A /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				A6FE817421B11EC30054018A /* LaunchScreen.storyboard */,
 				A6FE817721B11EC30054018A /* Info.plist */,
 			);
-			path = ARTest2;
+			path = ARKeyboard;
 			sourceTree = "<group>";
 		};
-		A6FE817F21B11EC30054018A /* ARTest2Tests */ = {
+		A6FE817F21B11EC30054018A /* ARKeyboardTests */ = {
 			isa = PBXGroup;
 			children = (
 				A6FE818021B11EC30054018A /* ARTest2Tests.swift */,
 				A6FE818221B11EC30054018A /* Info.plist */,
 			);
-			path = ARTest2Tests;
+			path = ARKeyboardTests;
 			sourceTree = "<group>";
 		};
-		A6FE818A21B11EC30054018A /* ARTest2UITests */ = {
+		A6FE818A21B11EC30054018A /* ARKeyboardUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A6FE818B21B11EC30054018A /* ARTest2UITests.swift */,
 				A6FE818D21B11EC30054018A /* Info.plist */,
 			);
-			path = ARTest2UITests;
+			path = ARKeyboardUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6FE816521B11EC20054018A /* ARTest2 */ = {
+		A6FE816521B11EC20054018A /* ARKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6FE819021B11EC30054018A /* Build configuration list for PBXNativeTarget "ARTest2" */;
+			buildConfigurationList = A6FE819021B11EC30054018A /* Build configuration list for PBXNativeTarget "ARKeyboard" */;
 			buildPhases = (
 				A6FE816221B11EC20054018A /* Sources */,
 				A6FE816321B11EC20054018A /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = ARTest2;
+			name = ARKeyboard;
 			productName = ARTest2;
-			productReference = A6FE816621B11EC20054018A /* ARTest2.app */;
+			productReference = A6FE816621B11EC20054018A /* ARKeyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6FE817B21B11EC30054018A /* ARTest2Tests */ = {
+		A6FE817B21B11EC30054018A /* ARKeyboardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6FE819321B11EC30054018A /* Build configuration list for PBXNativeTarget "ARTest2Tests" */;
+			buildConfigurationList = A6FE819321B11EC30054018A /* Build configuration list for PBXNativeTarget "ARKeyboardTests" */;
 			buildPhases = (
 				A6FE817821B11EC30054018A /* Sources */,
 				A6FE817921B11EC30054018A /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				A6FE817E21B11EC30054018A /* PBXTargetDependency */,
 			);
-			name = ARTest2Tests;
+			name = ARKeyboardTests;
 			productName = ARTest2Tests;
-			productReference = A6FE817C21B11EC30054018A /* ARTest2Tests.xctest */;
+			productReference = A6FE817C21B11EC30054018A /* ARKeyboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6FE818621B11EC30054018A /* ARTest2UITests */ = {
+		A6FE818621B11EC30054018A /* ARKeyboardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6FE819621B11EC30054018A /* Build configuration list for PBXNativeTarget "ARTest2UITests" */;
+			buildConfigurationList = A6FE819621B11EC30054018A /* Build configuration list for PBXNativeTarget "ARKeyboardUITests" */;
 			buildPhases = (
 				A6FE818321B11EC30054018A /* Sources */,
 				A6FE818421B11EC30054018A /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				A6FE818921B11EC30054018A /* PBXTargetDependency */,
 			);
-			name = ARTest2UITests;
+			name = ARKeyboardUITests;
 			productName = ARTest2UITests;
-			productReference = A6FE818721B11EC30054018A /* ARTest2UITests.xctest */;
+			productReference = A6FE818721B11EC30054018A /* ARKeyboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A6FE816121B11EC20054018A /* Build configuration list for PBXProject "ARTest2" */;
+			buildConfigurationList = A6FE816121B11EC20054018A /* Build configuration list for PBXProject "ARKeyboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6FE816521B11EC20054018A /* ARTest2 */,
-				A6FE817B21B11EC30054018A /* ARTest2Tests */,
-				A6FE818621B11EC30054018A /* ARTest2UITests */,
+				A6FE816521B11EC20054018A /* ARKeyboard */,
+				A6FE817B21B11EC30054018A /* ARKeyboardTests */,
+				A6FE818621B11EC30054018A /* ARKeyboardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		A6FE817E21B11EC30054018A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6FE816521B11EC20054018A /* ARTest2 */;
+			target = A6FE816521B11EC20054018A /* ARKeyboard */;
 			targetProxy = A6FE817D21B11EC30054018A /* PBXContainerItemProxy */;
 		};
 		A6FE818921B11EC30054018A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6FE816521B11EC20054018A /* ARTest2 */;
+			target = A6FE816521B11EC20054018A /* ARKeyboard */;
 			targetProxy = A6FE818821B11EC30054018A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,12 +437,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ARTest2/Info.plist;
+				DEVELOPMENT_TEAM = CV48A9928R;
+				INFOPLIST_FILE = ARKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.christman.ARTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christman.ARKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,12 +455,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ARTest2/Info.plist;
+				DEVELOPMENT_TEAM = CV48A9928R;
+				INFOPLIST_FILE = ARKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.christman.ARTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christman.ARKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest2.app/ARTest2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKeyboard.app/ARKeyboard";
 			};
 			name = Debug;
 		};
@@ -502,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTest2.app/ARTest2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKeyboard.app/ARKeyboard";
 			};
 			name = Release;
 		};
@@ -547,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6FE816121B11EC20054018A /* Build configuration list for PBXProject "ARTest2" */ = {
+		A6FE816121B11EC20054018A /* Build configuration list for PBXProject "ARKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6FE818E21B11EC30054018A /* Debug */,
@@ -556,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6FE819021B11EC30054018A /* Build configuration list for PBXNativeTarget "ARTest2" */ = {
+		A6FE819021B11EC30054018A /* Build configuration list for PBXNativeTarget "ARKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6FE819121B11EC30054018A /* Debug */,
@@ -565,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6FE819321B11EC30054018A /* Build configuration list for PBXNativeTarget "ARTest2Tests" */ = {
+		A6FE819321B11EC30054018A /* Build configuration list for PBXNativeTarget "ARKeyboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6FE819421B11EC30054018A /* Debug */,
@@ -574,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6FE819621B11EC30054018A /* Build configuration list for PBXNativeTarget "ARTest2UITests" */ = {
+		A6FE819621B11EC30054018A /* Build configuration list for PBXNativeTarget "ARKeyboardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6FE819721B11EC30054018A /* Debug */,

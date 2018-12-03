@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ARTest2.xcodeproj">
+      location = "self:/Users/aurelienchristman/Documents/ARTest2/ARKeyboard.xcodeproj">
    </FileRef>
 </Workspace>
